@@ -1,0 +1,645 @@
+#wrapper{
+	position: relative;
+	padding: 40px;
+}
+
+
+/*** close icon css start here ***/
+.close.icon{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 0;
+	width: 21px;
+	height: 21px;
+}
+
+.close.icon:before{
+	content: "";
+	position: absolute;
+	top: 10px;
+	width: 21px;
+	height: 2px;
+	background-color: #000;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.close.icon:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	width: 21px;
+	height: 2px;
+	background-color: #000;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+/*** close icon css end here ***/
+
+
+/*** angle right icon css start here ***/
+.angle-right.icon{
+	color: #000;
+	position: absolute;
+	margin-left: 120px;
+	width: 0px;
+	height: 0px;
+	background-color: #000;
+}
+
+.angle-right.icon:before{
+	content: "";
+	position: absolute;
+	right: 1px;
+	top: -5px;
+	width: 10px;
+	height: 10px;
+	border-top: solid 2px;
+	border-right: solid 2px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.angle-right.icon:after{
+	content: "";
+	position: absolute;
+	right: 10px;
+	top: -5px;
+	width: 10px;
+	height: 10px;
+	border-top: solid 2px;
+	border-right: solid 2px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+/*** angle right icon css end here ***/
+
+
+
+/*** angle left icon css start here ***/
+.angle-left.icon{
+	position: absolute;
+	margin-left: 220px;
+	width: 0px;
+	height: 0px;
+	background-color: #000;
+}
+
+.angle-left.icon:before{
+	content: "";
+	position: absolute;
+	right: 1px;
+	top: -5px;
+	width: 10px;
+	height: 10px;
+	border-top: solid 2px;
+	border-right: solid 2px;
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+
+.angle-left.icon:after{
+	content: "";
+	position: absolute;
+	right: 10px;
+	top: -5px;
+	width: 10px;
+	height: 10px;
+	border-top: solid 2px;
+	border-right: solid 2px;
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+/*** angle left icon css end here ***/
+
+
+
+/*** align-justify icon css start here ***/
+.align-justify.icon{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 320px;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+}
+
+.align-justify.icon i{
+	position: absolute;
+	top: 5px;
+	width: 20px;
+	height: 3px;
+	background-color: #000;
+}
+
+.align-justify.icon:before{
+	content: "";
+	position: absolute;
+	top: 10px;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+}
+
+.align-justify.icon:after{
+	content: "";
+	position: absolute;
+	top: 15px;
+	width: 20px;
+	height: 3px;
+	background-color: #000;
+}
+
+
+/*** align-justify icon css end here ***/
+
+
+
+/*** align-center icon css start here ***/
+.align-center.icon{
+	position: absolute;
+	margin-left: 420px;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+}
+
+.align-center.icon:before{
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: 5px;
+	width: 10px;
+	height: 3px;
+	background-color: #000;
+	box-shadow: 0px 10px 0px #000;
+}
+
+.align-center.icon:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+}
+/*** align-center icon css end here ***/
+
+
+
+
+/*** align-left icon css start here ***/
+.align-left.icon{
+	position: absolute;
+	margin-left: 520px;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+}
+
+.align-left.icon:before{
+	content: "";
+	position: absolute;
+	top: -5px;
+	width: 10px;
+	height: 3px;
+	background-color: #000;
+	box-shadow: 0px 10px 0px #000;
+}
+
+.align-left.icon:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+}
+/*** align-left icon css end here ***/
+
+
+
+/*** align-right icon css start here ***/
+.align-right.icon{
+	position: absolute;
+	margin-left: 620px;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+}
+
+.align-right.icon:before{
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: 10px;
+	width: 10px;
+	height: 3px;
+	background-color: #000;
+	box-shadow: 0px 10px 0px #000;
+}
+
+.align-right.icon:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+}
+/*** align-right icon css end here ***/
+
+
+/*** camera icon css start here ***/
+.camera.icon{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 720px;
+	width: 35px;
+	height: 20px;
+	border: 2px #000 solid;
+}
+
+.camera.icon:before{
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 8px;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+}
+
+.camera.icon:after{
+	content: "";
+	position: absolute;
+	top: -4px;
+	left: 25px;
+	width: 5px;
+	height: 2px;
+	background-color: #000;
+}
+/*** camera icon css end here ***/
+
+
+/*** address-book icon css start here ***/
+.address-book.icon{
+	position: absolute;
+	margin-left: 820px;
+	margin-top: -15px;
+	width: 30px;
+	height: 35px;
+	border: 1px #000 solid;
+  	border-radius: 2px;
+}
+
+.address-book.icon i{
+	position: absolute;
+	top: 4px;
+	left: 9px;
+	width: 10px;
+	height: 10px;
+	background-color: #000;
+	border: 1px #000 solid;
+  	border-radius: 50px;
+}
+
+.address-book.icon i:after{
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 20px;
+	height: 5px;
+	width: 3px;
+	background-color: #000;
+}
+
+.address-book.icon i:before{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	height: 5px;
+	width: 3px;
+	background-color: #000;
+	box-shadow: 0px 10px 0px #000;
+}
+
+.address-book.icon:after{
+	content: "";
+	position: absolute;
+	top: 20px;
+	left: 4px;
+	width: 10px;
+	height: 5px;
+	background: #000;
+	border: 1px #000 solid;
+  	border-radius: 50px 50px 0px 0px;
+}
+
+.address-book.icon:before{
+	content: "";
+	position: absolute;
+	top: 20px;
+	left: 13px;
+	width: 10px;
+	height: 5px;
+	background: #000;
+	border: 1px #000 solid;
+  	border-radius: 50px 50px 0px 0px;
+}
+/*** address-book icon css end here ***/
+
+
+/*** bowling icon css start here ***/
+.bowling-ball.icon{
+	position: absolute;
+	margin-left: 920px;
+	margin-top: -15px;
+	width: 40px;
+	height: 40px;
+	background-color: #000;
+	border: 1px #000 solid;
+  	border-radius: 50px;
+}
+
+.bowling-ball.icon i{
+	position: absolute;
+	top: 12px;
+	left: 15px;
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+  	border-radius: 50px;
+}
+
+.bowling-ball.icon:before{
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 10px;
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+	border: 1px #000 solid;
+  	border-radius: 50px;
+}
+
+.bowling-ball.icon:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+	border: 1px #000 solid;
+  	border-radius: 50px;
+}
+/*** bowling icon css end here ***/
+
+
+/*** adjust icon css start here ***/
+.adjust.icon{
+	position: absolute;
+	margin-left: 1020px;
+	margin-top: -15px;
+	width: 40px;
+	height: 40px;
+	border: 1px #000 solid;
+  	border-radius: 50px;
+}
+
+.adjust.icon:before{
+	content: "";
+	position: absolute;
+	top: 12px;
+	left: -3px;
+	width: 30px;
+	height: 15px;
+	background: #000;
+	border: 1px #000 solid;
+  	border-radius: 50px 50px 0px 0px;
+  	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+/*** adjust icon css end here ***/
+
+
+
+
+/*** backward icon css start here ***/
+.backward.icon{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 5px;
+	border-left: 15px solid transparent;
+  	border-right: 15px solid transparent; 
+  	border-top: 15px solid #000;
+  	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.backward.icon:after{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: -15px;
+	border-left: 15px solid transparent;
+  	border-right: 15px solid transparent; 
+  	border-top: 15px solid #000;
+}
+/*** backward icon css end here ***/
+
+
+/*** forward icon css start here ***/
+.forward.icon{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 90px;
+	border-left: 15px solid transparent;
+  	border-right: 15px solid transparent; 
+  	border-top: 15px solid #000;
+  	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.forward.icon:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: -15px;
+	border-left: 15px solid transparent;
+  	border-right: 15px solid transparent; 
+  	border-top: 15px solid #000;
+}
+/*** forward icon css end here ***/
+
+
+
+/*** redo icon css start here ***/
+.redo.icon{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 180px;
+	width: 40px;
+	height: 40px;
+	border: 2px #000 solid;
+  	border-radius: 50px;
+}
+
+.redo.icon:before{
+	content: "";
+	position: absolute;
+	right: 1px;
+	top: -2px;
+	width: 10px;
+	height: 10px;
+	border-bottom: solid 2px;
+	border-right: solid 2px;
+	box-shadow: 10px 10px 0px #fff;
+}
+/*** redo icon css end here ***/
+
+
+
+/*** undo css start here ***/
+.undo.icon{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 305px;
+	width: 40px;
+	height: 40px;
+	border: 2px #000 solid;
+  	border-radius: 50px;
+}
+
+.undo.icon:before{
+	content: "";
+	position: absolute;
+	left: 1px;
+	top: -2px;
+	width: 10px;
+	height: 10px;
+	border-bottom: solid 2px;
+	border-left: solid 2px;
+	box-shadow: -5px 10px 0px #fff;
+}
+/*** undo css end here ***/
+
+
+/*** ban icon css start here ***/
+.ban.icon{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 405px;
+	width: 40px;
+	height: 40px;
+	border: 2px #000 solid;
+  	border-radius: 50px;
+}
+
+.ban.icon:after{
+	content: "";
+	position: absolute;
+	top: -1px;
+	left: 20px;
+	width: 2px;
+	height: 42px;
+	background-color: #000;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}	
+/*** ban icon css end here ***/
+
+
+/*** heart icon css start here ***/
+.heart.icon{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 515px;
+	width: 17px;
+	height: 17px;
+	border-left: solid 2px;
+	border-bottom: solid 2px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
+.heart.icon:before{
+	content: "";
+	position: absolute;
+	top: -10px;
+	left: -2px;
+	width: 16px;
+  	height: 8px;
+  	border-radius: 50px 50px 0 0;
+  	border-top: solid 2px #000;
+  	border-left: solid 2px #000;
+  	border-right: solid 2px #000;
+  	
+}
+.heart.icon:after{
+	content: "";
+	position: absolute;
+	top: -1px;
+	left: 17px;
+	width: 8px;
+  	height: 16px;
+  	border-radius: 0px 50px 50px 0;
+  	border-top: solid 2px #000;
+  	border-right: solid 2px #000;
+  	border-bottom: solid 2px #000;
+}
+/*** heart icon css end here ***/
+
+
+.link.icon{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 615px;
+	width: 17px;
+	height: 2px;
+	background: #000;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.link.icon:before{
+	content: "";
+	position: absolute;
+	top: -7px;
+	left: -10px;
+	width: 15px;
+	height: 12px;
+	border: 2px solid #000;
+	border-radius: 2px;
+}
+
+.link.icon:after{
+	content: "";
+	position: absolute;
+	top: -7px;
+	left: 10px;
+	width: 15px;
+	height: 12px;
+	border: 2px solid #000;
+	border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
