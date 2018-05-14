@@ -597,9 +597,10 @@
 /*** heart icon css end here ***/
 
 
+/*** link icon css start here ***/
 .link.icon{
 	position: absolute;
-	margin-top: 40px;
+	margin-top: 50px;
 	margin-left: 615px;
 	width: 17px;
 	height: 2px;
@@ -629,13 +630,99 @@
 	border: 2px solid #000;
 	border-radius: 2px;
 }
+/*** link icon css end here ***/
+
+
+/*** bookmark icon css start here ***/
+.bookmark.icon{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 715px;
+	width: 20px;
+	height: 40px;
+	background-color: #000;
+	border-radius: 2px 2px 0 0;
+}
+
+.bookmark.icon:before{
+	content: "";
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	border-left: 10px solid transparent;
+  	border-right: 10px solid transparent; 
+  	border-top: 10px solid #fff;
+  	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+/*** bookmark icon css end here ***/
 
 
 
+/*** switch icon css start here ***/
+.switch.icon{
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 810px;
+	width: 40px;
+	height: 40px;
+	border: 2px #000 solid;
+	border-radius: 50px;
+}
+
+.switch.icon:before{
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: 17px;
+	width: 2px;
+	height: 15px;
+	background-color: #000;
+	border-left: 2px solid #fff;
+  	border-right: 2px solid #fff; 
+}
+/*** switch icon css end here ***/
+
+/*** check icon css start here ***/
+.check.icon{
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 930px;
+	width: 15px;
+	height: 30px;
+	border-right: 2px #000 solid;
+	border-bottom: 2px #000 solid;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+/*** check icon css end here ***/
 
 
+/*** check-circle css start here ***/
+.check-circle.icon{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 1030px;
+	width: 15px;
+	height: 30px;
+	border-right: 2px #000 solid;
+	border-bottom: 2px #000 solid;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	
+}
 
+.check-circle.icon:before{
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: -10px;
+	width: 40px;
+	height: 40px;
+	border: 2px #000 solid;
+	border-radius: 50px;
 
+}
 
 
 
